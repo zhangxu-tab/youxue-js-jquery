@@ -1,0 +1,72 @@
+@charset "utf-8";
+.wrap {
+  position: relative;
+}
+.innear {
+  position: relative;
+}
+.content {
+  width: 100%;
+  height: 570px;
+  background-color: #ffffff;
+  border-top: 1px solid #e6e6e6;
+}
+.content #form2 {
+  width: 500px;
+  height: 190px;
+  border-right: 1px solid #e7e7e7;
+  margin-top: 66px;
+  margin-left: 120px;
+}
+.content #form2 p {
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+.content #form2 p input {
+  width: 262px;
+  height: 36px;
+  border: 1px solid #dddddd;
+  outline: none;
+}
+.content #form2 p span {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.content #form2 p span img {
+  margin-top: 15px;
+}
+.content #form2 button {
+  width: 264px;
+  height: 42px;
+  background: #ff4a00;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 45px;
+  outline: none;
+}
+.content #form2 .p1 {
+  margin-top: 16px;
+  margin-left: 200px;
+  font-size: 12px;
+}
+.content #form2 .p1 a {
+  margin-right: 10px;
+}
+.content #form2 .p1 a:hover {
+  color: orangered;
+  text-decoration: underline;
+}
+.content .right {
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  right: 200px;
+}
+.content .right p {
+  line-height: 30px;
+}
+.content .right img {
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,81 @@
+{
+    "top_nav":[
+        {
+            "title":"首页"
+        },
+        {
+            "title":"精品课程",
+            "src":"./image/ujyx_13.jpg",
+            "child":[
+                {
+                    "title":"免费课程",
+                    "title1":"精品网课"
+                }
+            ]
+        },
+        {
+            "title":"在线直播"
+        },
+        {
+            "title":"IT培训班"
+        },
+        {
+            "title":"IT培训机构"
+        },
+        {
+            "title":"IT问答库"
+        },
+        {
+            "title":"APP下载",
+            "child1":[
+                {
+                    "imgsrc":"./image/ujyx_16.jpg",
+                    "title1":"扫码下载",
+                    "title2":"IT优学APP"
+                }
+            ]
+        }
+    ],
+    "list":[
+        {
+            "title":"01 【视频】第1讲:季基础卷积神经网络彻底入门 [01:03:06]",
+            "imgsrc":"./image/cts-200815142727098.png"
+        },
+        {
+            "title":"02 【直播】零基础卷积神经网络实战 [2020-07-30 19:30]",
+            "imgsrc":"./image/cts-200815142727098.png"
+        },
+        {
+            "title":"03 【视频】第2讲:零基础卷积神经网络实战 [01:10:00]",
+            "imgsrc":"./image/cts-200815142727098.png"
+        },
+        {
+            "title":"04 【直播】快速入门嵌入Word2Vec [2020-08-06 13:19]",
+            "imgsrc":"./image/cts-200815142727098.png"
+        },
+        {
+            "title":"05 【视频】第三讲 快速入门嵌入Word2Vec [01:17:36]",
+            "imgsrc":"./image/cts-200815142727098.png"
+        },
+        {
+            "title":"06 【视频】Word2Vec词嵌入实战 [2020-08-13 18:35]",
+            "imgsrc":"./image/cts-200815142727098.png"
+        },
+        {
+            "title":"07 【视频】Word2Vec词嵌入实战 [2020-08-13 18:35]",
+            "imgsrc":"./image/cts-200815142727098.png"
+        }
+    ],
+    "way":{
+        "src1":[
+            {"src":"./image/dsh_h_07.jpg"},
+            {"src":"./image/dsh_h_05.jpg"},
+            {"src":"./image/dsh_h_03.jpg"}
+        ],
+        "src2":[
+            {"src":"./image//cts-200813093003042.png"},
+            {"src":"./image/cts-200813093003057.png"},
+            {"src":"./image/cts-200813093002954.png"}
+        ]
+    }
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 页面tdk -->
+    <title>用户注册-优学</title>
+    <meta name="keywords" content="java,web,python,UI,互联网营销，office">
+    <meta name="description" content="优就业">
+    <!-- 引入icon图标 -->
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <!-- 引入登录页面css样式 -->
+    <link rel="stylesheet" href="./css/registe.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="innear">
+            <!-- 顶导航的开始 -->
+            <div class="top_nav clearfix">
+                <img src="./image/logo_it.jpg" alt="">
+                <ul class="top_one">
+                </ul>
+                <div class="right">
+                    <div class="search">
+                        <input type="text" placeholder="搜索课程" autofocus>
+                        <img src="./image/etk_09.jpg" alt="">
+                    </div>
+                    <img class="shopcar" src="./image/shopbar.jpg" alt="">
+                    <div class="sao">
+                        <img src="./image/ujyx_14.jpg" alt="">
+                        <div class="sao_child">
+                            <div class="box box1">
+                                <img src="./image/ujyx_16.jpg" alt="">
+                                <p>扫描下载</p>
+                                <p class="p1">IT优学APP</p>
+                            </div>
+                            <div class="box">
+                                <img src="./image/ujyx_17.jpg" alt="">
+                                <p>扫码关注</p>
+                                <p class="p1">中公优就业</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="a1">登录</a>
+                    <a href="#">注册</a>
+                </div>
+            </div>
+            <!-- 顶导航的结束 -->
+        </div>
+        <!-- 主要内容区 -->
+        <div class="content">
+            <div class="innear">
+                <form action="http://localhost/login.html" method="get" id="form1">
+                    <div>
+                        &emsp;&emsp;手机： <input type="text" placeholder="请输入手机号" name="userphone">
+                        <span></span>
+                    </div>  
+                    <div>
+                        创建密码： <input type="password" placeholder="请输入密码" name="username">
+                        <span></span>
+                    </div>
+                    <div>
+                        确认密码： <input type="password" placeholder="请再次输入密码" name="confir">
+                        <span></span>
+                    </div>
+                    <div>
+                        &emsp;验证码： <input type="text" placeholder="请输入验证码" name="yan">
+                        <span class="same"></span>
+                        <p class="s1">93544</p>
+                    </div>
+                    <div>
+                        短信验证： <input type="text" placeholder="请输入验证码" name="xin">
+                        <span class="same"></span>
+                        <a href="#" class="s2">免费获取短信</a>
+                    </div>
+                    <button>注册</button>
+                    <p>已有账号，请<a href="http://localhost/login.html">登录</a></p>
+                </form>
+                <div class="txt">
+                    <p>用户专享服务：</p>
+                    <p>极致的视频学习体验</p>
+                    <p>丰富的直播课程免费学</p>
+                    <p>开课提醒，不错过每一次精彩</p>
+                    <p>讲、学、练、考，多种高效学习方式快速提升成绩</p>
+                </div>
+            </div>
+        </div>
+        <!-- 出版部分 -->
+        <div class="ban ">
+            <div class="innear clearfix">
+                <div class="left">
+                    <p>
+                        <a href="#">关于我们</a><span>|</span>
+                        <a href="#">联系我们</a><span>|</span>
+                        <a href="#">加入我们</a><span>|</span>
+                        <a href="#">品牌荣誉</a><span>|</span>
+                        <a href="#">版权声明</a><span>|</span>
+                        <a href="#">网站地图</a><span>|</span>
+                        <a href="#">支付方式</a>
+                    </p>
+                    <p>
+                        <a href="#">京ICP备10218183号-88</a>
+                        京ICP证161188号
+                        <img src="./image/gongbei.png" alt="">
+                        <a href="#">京公网安备11010802020723</a>
+                    </p>
+                    <p>Copyright01999--2020北京中公教育科技有限公司. A11 Rights Reserved</p>
+                </div>
+                <div class="right right1">
+                    <a href="#"><img src="./image/sm_83x30.png" alt=""></a>
+                    <a href="#"><img src="./image/aqkx_83x30.png" alt=""></a>
+                    <a href="#"><img src="./image/cts-200813194724506.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./common/style.js"></script>
+    <script src="./common/move.js"></script>
+    <script src="./common/ajax.js"></script>
+    <script src="./js/registe.js"></script>
+    <script src="./template-web.js"></script>
+
+    <!-- 顶部导航栏部分 -->
+    <script type="text/html" id="a">
+        {{each top_nav value}}
+        <li>
+            <a href="#">{{value.title}}</a>
+            <img src="{{value.src}}" alt="">
+            {{each value.child item}}
+            <div class="child1">
+                <a href="#">{{item.title}}</a>
+                <a href="#">{{item.title1}}</a>
+            </div>
+            {{/each}}
+            {{each value.child1 item}}
+            <div class="col_child clearfix">
+                <img src="{{item.imgsrc}}" alt="">
+                <p class="p1">{{item.title1}}</p>
+                <p class="p2">{{item.title2}}</p>
+            </div>
+            {{/each}}
+        </li>
+        {{/each}}
+    </script>
+</body>
+</html>

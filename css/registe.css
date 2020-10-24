@@ -1,0 +1,87 @@
+@charset "utf-8";
+.wrap {
+  position: relative;
+}
+.innear {
+  position: relative;
+}
+.content {
+  width: 100%;
+  height: 570px;
+  background-color: #ffffff;
+  border-top: 1px solid #e6e6e6;
+}
+.content #form1 {
+  width: 500px;
+  height: 360px;
+  margin-top: 50px;
+  margin-left: 110px;
+  border-right: 1px solid #e6e6e6;
+}
+.content #form1 div {
+  position: relative;
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.content #form1 div input {
+  width: 262px;
+  height: 36px;
+  border: 1px solid #dddddd;
+  outline: none;
+}
+.content #form1 div span {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.content #form1 div span img {
+  margin-top: 15px;
+}
+.content #form1 div .s1 {
+  position: absolute;
+  font-size: 18px;
+  right: 180px;
+  top: -2px;
+  font-weight: bold;
+  color: blue;
+}
+.content #form1 div .s2 {
+  position: absolute;
+  right: 180px;
+  top: 10px;
+  font-size: 12px;
+}
+.content #form1 div .s2:hover {
+  color: orangered;
+}
+.content #form1 div .same {
+  color: #999999;
+}
+.content #form1 button {
+  width: 264px;
+  height: 42px;
+  background: #ff4a00;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-left: 74px;
+  outline: none;
+}
+.content #form1 p {
+  font-size: 12px;
+  margin-left: 246px;
+  margin-top: 10px;
+}
+.content #form1 p a {
+  text-decoration: underline;
+  color: #ff6600;
+}
+.content .txt {
+  position: absolute;
+  right: 170px;
+  top: 0;
+  font-size: 14px;
+}
+.content .txt p {
+  line-height: 30px;
+}

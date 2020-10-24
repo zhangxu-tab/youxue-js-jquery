@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+/* 定义版心 */
+.innear {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+// 顶导航
+.top_nav {
+    width: 100%;
+    height: 62px;
+    line-height: 62px;
+    img {
+        float: left;
+        margin-top: 15px;
+    }
+    ul {
+        float: left;
+        height: 36px;
+        margin-left: 22px;
+        li {
+            position: relative;
+            width: 85px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            margin-top: 13px;
+            float: left;
+            a {
+                width: 85px;
+                height: 36px;
+                line-height: 36px;
+            }
+            a.color {
+                color: rgb(255,73,5);
+            }
+            img {
+                position: absolute;
+                right: 0;
+                top: 50%;
+                margin-top: -3px;
+            }
+            .child1 {
+                position: absolute;
+                width: 85px;
+                height: 80px;
+                background: #ffffff;
+                margin-top: 5px;
+                display: none;
+                z-index: 1;
+                a {
+                    width: 85px;
+                    padding: 10px;
+                    line-height: 30px;
+                    text-align: center;
+                }
+                a:hover {
+                    color: red;
+                }
+            }
+        }
+        .col {
+            position: relative;
+            width: 86px;
+            height: 35px;
+            line-height: 35px;
+            border: 1px solid rgb(255,73,5);
+            border-radius: 10px;
+            margin-top: 0;
+            a {
+                color: rgb(255,73,5);
+            }
+            .col_child {
+                position: absolute;
+                width: 170px;
+                height: 90px;
+                background: #ffffff;
+                margin-top: 10px;
+                margin-left: -40px;
+                z-index: 1;
+                display: none;
+                color: #000000;
+                img {
+                    position: absolute;
+                    left: 12px;
+                    top: 14px;
+                }
+                p {
+                    position: absolute;
+                    font-size: 12px;
+                    line-height: 16px;
+                    left: 90px;
+                }
+                .p1 {
+                    padding-top: 25px;
+                }
+                .p2 {
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+    .right {
+        float: right;
+        display: flex;
+        .search {
+            position: relative;
+            width: 136px;
+            height: 28px;
+            float: left;
+            input {
+                width: 135px;
+                height: 26px;
+                border: 1px solid #cccccc;
+                border-radius: 20px;
+                padding-left: 10px;
+                color: #cccccc;
+                visibility: hidden;
+                outline: none;
+            }
+            img {
+                position: absolute;
+                right: 0px;
+                top: 10px;
+            }
+        }
+        .shopcar {
+            width: 21px;
+            height: 17px;
+            margin-top: 24px;
+            margin-left: 25px;
+        }
+        .sao {
+            position: relative;
+            margin-top: 9px;
+            margin-left: 20px;
+            .sao_child {
+                position: absolute;
+                width: 150px;
+                height: 200px;
+                top: 50px;
+                left: -80px;
+                padding: 0 10px 0 20px;
+                background: #ffffff;
+                z-index: 1;
+                display: none;
+                .box {
+                    position: relative;
+                    height: 100px;
+                    img {
+                        position: absolute;
+                        top: 10;
+                        left: 0;
+                    }
+                    p {
+                        position: absolute;
+                        line-height: 20px;
+                        font-size: 14px;
+                        top: 30px;
+                        margin-left: 80px;
+                    }
+                    .p1 {
+                        top: 50px;
+                    }
+                }
+                .box1 {
+                    border-bottom: 1px dashed #cccccc;
+                }
+            }
+        }
+        a {
+            font-size: 12px;
+        } 
+        .a1 {
+            margin: 0 15px 0 25px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+    
+}
+// 出版部分
+.ban {
+    height: 121px;
+    background-color: rgb(64,65,68);
+    font-size: 12px;
+    color: rgb(153,153,153);
+    padding-top: 35px;
+    .left {
+        float: left;
+        margin-left: 290px;
+        p {
+            width: 452px;
+            text-align: center;
+            line-height: 28px;
+            a {
+                color: rgb(153,153,153);
+            }
+            span {
+                margin: 0 5px 0 5px;
+            }
+            a:hover {
+                color: orangered;
+            }
+        }
+    }
+    .right {
+        float: right;
+        margin-right: 280px;
+        margin-top: 45px;
+    }
+    .right1 {
+        margin-right: 174px;
+    }
+}
